@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time zone grid</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="single-grid">
+            <div class="single-container">
+              <div class="img-info">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG0AAACFCAMAAABmMYaLAAABUFBMVEX///8Pdbz8sEBgOBMlquEAAAD3lB78skIoOJH/s0H/ukT/t0P3khwAdL7/tUL7rDwAb7pXMBD4midcMQBeNQ1WJgD8rjQAquolseYLesD6+PZYKwDXzcVcMgZbNBH5ojH/6MAnQZaHalR4Vz7m39rSlTiKXSFnPxbOw7qumo3epDyPc11uRyfy7uvopT1TIAB+Uh2jbyixijL/+eylfi7PmjiTaSfe9P9sx/KFy+9ZmtEfl9O71+4XhscbX6v/tC4Ab8aaxuV4qtgrL4whU6Kag3G8raZMJgxFXiVOWiO7gi/vuUVOFQBKCgDDjjQ+JhFjSxs0KA8QEgZVPxclGwlBNBP/xkb/vVl5WSAWCQMxGwn/z33+2qj/7tP/2Jb8zJjJ2NNkrcRLqdLWr2yYrqKRrK3dq1nJrnqvrZmSuuOLkJp5iZ6um3ZmhaUpIYVHfK4qFwRfAAAIQUlEQVRoge2Z61saSRaHobkU3U03zcVGQEViAGUUkQhMQMQ7O2ZWZRA1JrMzuYyb7Exm//9ve6r6QrU02HTX7Iddz5MngabqvPU7dc6pIvh8c9rW+ml5bWlraW35dH1r3snzWHbpbONFMpcMLOeWk6kAvHqxcbaU/WtYG5u5BUDRlswtLGxu/AUSl9YWUgE7Sy2sLbGGrS8nbVlEYXKdKSu7kbQXpstLnjKM5tbmwgwWtoUAM1w2t/wELBBY3maUm9m16VtGbd4aG9zGU2HUg3nKAnaWcwQD3Jl32FJuVjbSlsp5r7szZ3FkJM5xICFRPNPmkBYIbHvEvSQ9JL4yA5HCI1bKffwy+dITjZRafwet9OPlWrm/EliJx4FdrsXhVR9erfT/9kMt0A+gc4xLrnmBbeBNi+8IfLWIRCQWa4HazvlOqbZTLdVKO+fnpXKt+OaNiKqIF3biMDa34R6WJXEsixzH8xyYjBASRVlEMo//AUOizOkmlkleuu8o69tY2rnAOTHhHIvbdn/4aIGsOIJxXMVjKL8j7bjqkIZIzX3nmvYCnzRl5JSGN275hVtYdpO0SKe0Kqm+TbdpskUC2S/yjmB8sU9C6fYQ3yqntHJzRBOaOEtSZddXhjXSlGoOaTXc31LuuwnJEqdpQpLEQ5b4TsnGxZ2VQDVOts39fYFU93w0D9VNDrd4c54s8XB+rxNaySGttMKANl9OeujKS9vz09zfu17+iGlzRfLvHu4K+DQ1egmvGQ2At7Is68/I4Z1KuoeREoDTFAxVKsVio1isVJAoiEARbuQKPLu4uChWK2/wEEzLebp1XcLF567evBqEiP00GF6Hroe79Xq9OboOja7gL2KDYal+B1eiSw+sn2/KmrPQ6KIBqrAC4SJk2AV5L1YrjYuR/qh2s+qadisEdJggm1sm3MGD4dtQ6E4wt08WNNzbsnDrFvZKFErxS/Ab2hXHqSGDuIZYAWny+KG4i1mX/ZLQe+WWJnAI0hpwdYrGF0PQy4RmiD5lxToWtlJCnBcajwLxe6s2vhJqyJzcCFV4q7b7eADxnOBFG19tQOSaVNA4oPEcb6XJzVCo2EAyck/z3XL5BMcLb0NNqzZ8vCKrtmboXuBhOHKdJb53fFjzNDKbFy/fDAlbbI5ujDYCKxppKwrz71zT3quJGOgQIJSCiIRqFUqrPrzU0MJoVG80qlX4aiDjqgAYiuXV965pr3qxBNDkxig0uBqOBte4GszDVWj+BIl4PRiMoMEMcVxRIuY6JX04lHmME4Viczi4v74fXe1WxyeCUL24Gw2AdrVbwd91UD7vIZDQunr6fYuHVozeQEOmkxNUw1NE2jR5G0Pqzx5ovn+o3DymepEG9m4enFeYL3sbc05zX9mGvXcuzkP2m+Y4luo7Fv+Lt+rse4C4yoDlc5iYMa8ZYtiqlYZAK9L+oeO4yojm61lQ+XA0iv/kLcAes18hxomCYgngaBaNkp7NOJBUKFHeZGm8vIFjF0hf1uzEFhwF4wSGP+c8CmWUoOhAeu5ZtP0yzkoER2YCaIl8bJwkSP2FIe19gso+pBtdFAkGTcu01Sg3q6GgWJQpLZGY2b7CeaY0lUq/SWmJMIv2T9Hy0dg0HFRFjGG5YRpKTMPBpiUQa1osGrbF4Q+YthK4e/HYq5063FzgMVPar6rmN//omIEDQVuD+is7WOuDqssIUw0Et5WwLlj90GJG+/6jqm+RfqxpvYQcdFrZqx+/ZwVrpYNVPXC4JUfDCWy4L0eNor8NBlmJex1Mf1L12IEegsHnwDhL1U/p4Gs2sFYwmP5sXBbgBNBPOMgZs3n2fkuzEvc6GAx+pI6cGAliOEE1avUjjGEiDqSBuIfx116cH4k8fSjwD2k8iIW414T2hbp3kSOOftv7TGgMxBFpEErrFzerkUCyELfX1hwZWWkL+2daG9TZ8yasLQV12ofeVFrvg04LKm338lpHktINGjb1Zzj+wRzTVaQjl7zDjOJXTEfjkpuQ9lvaHCX5lcxXF6y9tuL3+zPBsU09u6kxGZijdOfdvlZbkWCi1Bk7Sn+xzxP1y1hasENmzbl9XwnLTwUS4+xD2UvTgxQyT1KOHLPwhvltaLbiLNIMGsyUDh2xtA3TTFqkPQVtaRbYomTOVRxUH2T9eIJfsdDSnydx6mcrbbxSvyQ9tX3jIE5GEuz28U+ofPXRCOv0zKxwttqWwRO0yZqja22ShqthqryvyqOxEHuLq0XpUbdUPx1Yd7bz2IOk2Bf7XvfxSGu9AexkX3pQrbD9ggXXkSZ8KBmbbDmaZIF1aVeFQkaiceonxZ8pFOghXTsnSvuxMMkWRnWuxWDkeB8nWsXAqQ+4B+wfR4JjeRlbL4pEy8vaC8OhNGGdyHEE+5L8opGOfhK2SCTSMXGTgTTkmdkykYrUqI4Ji0ROtEf/0hKz97s264TCTSTJ2JHRqg+laSsCJV3iZ7F7HIkcGxPJjYivGJ7xR8awGZ60VnY4dT3YMiYsUtA35eAPvHPqHwf6iELExNlvm7FKqIXWTJjfT2B/gsOIMVD6BqHke98MHQr+8DiDcbNdKS3f3mwaVJwOK5gLP/i91xO+mfOIuMifgLOpNgtt74lA4o3TYDj9zWkH/z6gHO8fR7Rgztg2Mu0Q2tXMEf5MRyLeCtZFWN4VtNV0Zm4b2bippUYBC9jZdFcZvJyTJ1CYduQ7mq1eM1j7rGESfO7Ai3TkazugweJnLj1zQu/qdFrbEQ1iOTveSuHpOGo0B8MA5/FzzZzS2FjXZ3si/Y/QnEWcjWWeaYys6/svwvz+Z9oz7Zn2THum/f/S/gM0mh2PK/QQIwAAAABJRU5ErkJggg==" alt="avatar">
+                <p id="report">Report for</p>
+                <p class="img-name">Jeremy<br> Robson</p>
+              </div>
+                <div class="footer-date">
+                    <p class="daily">Daily</p>
+                    <p class="weekly">Weekly</p>
+                    <p class="monthly">Monthly</p>
+                </div>
+            </div>
+        </div>
+        <div class="multi-grid">
+            <div class="first-grid">
+                <span class="work-icon"><p class="work">Work</p><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+                <p class="time">32hrs</p>
+                <span class="last-week">Last week - 30hrs</span>
+            </div>
+           <div class="second-grid">
+                <span class="play-icon"><p class="play">Play</p><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+                <p class="time">10hrs</p>
+                <span class="last-week">Last week - 8hrs</span>
+           </div>
+           <div class="third-grid">
+                <span class="study-icon"><p class="study">Study</p><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+                <p class="time">4hrs</p>
+                <span class="last-week">Last week - 7hrs</span>
+           </div>
+           <div class="fourth-grid">
+                <span class="exercise-icon"><p class="exercise">Exercise</p><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+                <p class="time">4hrs</p>
+                <span class="last-week">Last week - 5hrs</span>
+           </div>
+           <div class="fifth-grid">
+                 <span class="social-icon"><p class="social">Social</p><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+                 <p class="time">5hrs</p>
+                 <span class="last-week">Last week - 10hrs</span>
+           </div>
+           <div class="sixth-grid">
+                 <span class="self-care-icon"><p class="self-care">Self Care</p><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+                <p class="time">2hrs</p>
+                <span class="last-week">Last week - 2hrs</span>
+           </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

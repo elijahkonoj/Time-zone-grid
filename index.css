@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(226, 43%, 10%);
+}
+
+ @media only screen and (max-width: 430px){
+     .container {
+        background-color: blueviolet;
+     }
+     .multi-grid {
+        display: grid;
+        
+     }
+     .footer-date {
+        height: 40px;
+        display: flex;
+        width: 130px;
+     }
+     .single-container {
+        width: 130px;
+        height: 100px;
+     }
+ }
+img {
+    margin-top: 15px;
+    width: 35px;
+    border-radius: 50px;
+    margin-left: 10px;    
+}
+#report {
+margin-left: 10px;
+margin-top: 10px;
+font-size: 10px;
+color: white;
+}
+.img-name {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.single-container {
+    
+    width: 120px;
+    height: 200px;
+    margin-top: -50px;
+}
+
+.img-info {
+    background-color: hsl(236, 100%, 87%);
+    border-radius: 5px;
+    width: 120px;
+    height: 170px;
+}
+
+.footer-date {
+    background-color: hsl(235, 46%, 20%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 80px;    
+}
+
+
+.multi-grid {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.first-grid {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(
+        to bottom,
+        hsl(15, 100%, 70%) 0%,
+        hsl(15, 100%, 70%) 20%,
+        hsl(235, 46%, 20%) 20%, 
+        hsl(235, 46%, 20%) 100%);
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.second-grid {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(
+        to bottom,
+        hsl(195, 74%, 62%) 0%, 
+        hsl(195, 74%, 62%) 20%,
+        hsl(235, 46%, 20%) 20%,
+        hsl(235, 46%, 20%) 100%);
+    border-radius: 5px;
+    color: white;
+}
+
+.third-grid {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(
+        to bottom,
+        hsl(348, 100%, 68%) 0%,
+        hsl(348, 100%, 68%) 20%,
+        hsl(235, 46%, 20%) 20%,
+        hsl(235, 46%, 20%) 100%);
+        border-radius: 5px;
+        color: white;
+}
+
+.fourth-grid {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient( 
+        to bottom,
+        hsl(145, 58%, 55%) 0%,
+        hsl(145, 58%, 55%) 20%,
+        hsl(235, 46%, 20%) 20%,
+        hsl(235, 46%, 20%) 100%
+    );
+    border-radius: 5px;
+    color: white;
+}
+.fifth-grid {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient( 
+        to bottom,
+        hsl(264, 64%, 52%) 0%,
+        hsl(264, 64%, 52%) 20%,
+        hsl(235, 46%, 20%) 20%,
+        hsl(235, 46%, 20%) 100%);
+    border-radius: 5px;
+    color: white;
+}
+.sixth-grid {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(
+        to bottom,
+        hsl(43, 84%, 65%) 0%,
+        hsl(43, 84%, 65%) 20%,
+        hsl(235, 46%, 20%) 20%,
+        hsl(235, 46%, 20%) 100% );
+          border-radius: 5px;
+          color: white;
+}
+
+.daily {
+    font-size: 10px;
+    color: white;
+    margin-left: 10px;
+    opacity: 0.5; 
+    cursor: pointer;  
+}
+.daily:hover {
+    opacity: 1;
+}
+.weekly {
+    font-size: 10px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer
+}
+.monthly {
+    font-size: 10px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.monthly:hover {
+    opacity: 1;
+}
+.work {
+    font-size: 10px;
+    margin-left: 10px;
+    
+}
+.play {
+    font-size: 10px;
+    margin-left: 10px;
+}
+.study {
+    font-size: 10px;
+    margin-left: 10px;
+}
+.exercise {
+    font-size: 10px;
+    margin-left: 10px;
+}
+.social {
+    font-size: 10px;
+    margin-left: 10px;
+}
+.self-care {
+    font-size: 10px;
+    margin-left: 10px;
+}
+.time {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.last-week {
+    font-size: 10px;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+.work-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.self-care-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.play-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.study-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.exercise-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.social-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.fa{
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.fa:hover {
+    opacity: 1;
+}
